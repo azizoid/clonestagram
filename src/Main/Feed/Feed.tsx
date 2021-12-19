@@ -25,7 +25,7 @@ export const Feed = () => {
                     </Card.Link>
                 </div>
                 <Card.Link className={styles.threeDots}>
-                    <BsThreeDots />
+                    <BsThreeDots role="icon" />
                 </Card.Link>
             </Card.Header>
             <Card.Body>Body</Card.Body>

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Feed renders Header 1`] = `
+<div>
+  <div
+    class="feed card"
+  >
+    <div
+      class="header card-header"
+    >
+      <div>
+        <img
+          class="w-32 rounded-circle img-thumbnail"
+          src="https://picsum.photos/id/101/32/32"
+        />
+        <a
+          class="profileUsernameLink username card-link"
+        >
+          azizoid
+        </a>
+      </div>
+      <a
+        class="threeDots card-link"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          role="icon"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+          />
+        </svg>
+      </a>
+    </div>
+    <div
+      class="card-body"
+    >
+      Body
+    </div>
+    <div
+      class="card-body"
+    >
+      Footer
+    </div>
+  </div>
+</div>
+`;
