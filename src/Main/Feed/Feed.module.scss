@@ -1,0 +1,18 @@
+.feed {
+    margin-top: 2em;
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+
+        .username {
+            margin-left: 1em;
+        }
+
+        .threeDots {
+            justify-content: flex-end;
+        }
+    }
+}
