@@ -3,6 +3,7 @@ import styles from './App.module.scss';
 import { Row } from 'react-bootstrap';
 import { NavbarLayout } from './Main/Navbar/Navbar';
 import { StoriesBar } from './Main/StoriesBar/StoriesBar';
+import { Profile } from './Main/Profile/Profile';
 
 export const App = () => {
     return (
@@ -13,6 +14,8 @@ export const App = () => {
 
             <Row className={styles.main}>
                 <StoriesBar />
+
+                <Profile />
             </Row>
         </div>
     );
