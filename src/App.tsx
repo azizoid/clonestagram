@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import styles from './App.module.scss';
-import { Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import { NavbarLayout } from './Main/Navbar/Navbar';
 import { StoriesBar } from './Main/StoriesBar/StoriesBar';
 import { Profile } from './Main/Profile/Profile';
+import { Feed } from './Main/Feed/Feed';
 
 export const App = () => {
     const [me, setMe] = useState({
@@ -19,9 +20,14 @@ export const App = () => {
             </Row>
 
             <Row className={styles.main}>
-                <StoriesBar />
+                <Col md={{ offset: 2, span: 6 }}>
+                    <StoriesBar />
+                    <Feed />
+                </Col>
 
-                <Profile {...me} />
+                <Col md={{ span: 3 }}>
+                    <Profile {...me} />
+                </Col>
             </Row>
         </div>
     );
