@@ -1,0 +1,15 @@
+.navbar {
+    background-color: white;
+}
+.searchInput {
+    background-color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    svg {
+        width: 1.25em;
+        height: 1.25em;
+    }
+}
