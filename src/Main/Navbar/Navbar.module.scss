@@ -1,5 +1,11 @@
 .navbar {
     background-color: white;
+    border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+
+    .brand {
+        display: flex;
+        align-content: center;
+    }
 }
 .searchInput {
     background-color: white;

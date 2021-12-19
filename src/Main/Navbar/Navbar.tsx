@@ -20,12 +20,14 @@ import {
 } from 'react-bootstrap';
 
 export const NavbarLayout = () => (
-    <Navbar bg="light" className={styles.navbar}>
-        <Container>
-            <Col md={{ offset: 1, span: 10 }}>
+    <Navbar className={styles.navbar}>
+        <Col md={{ offset: 2, span: 9 }}>
+            <Container>
                 <Row>
                     <Col md={{ span: 2 }}>
-                        <Navbar.Brand href="#home">Clonestagram</Navbar.Brand>
+                        <Navbar.Brand href="#home" className={styles.brand}>
+                            Clonestagram
+                        </Navbar.Brand>
                     </Col>
                     <Col md={{ span: 6 }} className={styles.searchBar}>
                         <InputGroup>
@@ -61,7 +63,7 @@ export const NavbarLayout = () => (
                         </Nav>
                     </Col>
                 </Row>
-            </Col>
-        </Container>
+            </Container>
+        </Col>
     </Navbar>
 );
