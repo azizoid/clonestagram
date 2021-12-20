@@ -12,3 +12,15 @@
         justify-content: flex-end;
     }
 }
+
+:global(.list-group-item) {
+    text-align: center;
+    a {
+        text-decoration: none;
+
+        &.markedLink {
+            color: red;
+            font-weight: bold;
+        }
+    }
+}
