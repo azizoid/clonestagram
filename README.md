@@ -22,3 +22,7 @@ An Example app to fill the portfolio during job-hunt
 # Live link:
 
 https://azizoid.github.io/clonestagram/
+
+# List of Commits
+
+https://github.com/azizoid/clonestagram/commits/main
