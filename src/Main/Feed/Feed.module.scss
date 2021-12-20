@@ -1,24 +1,3 @@
 .feed {
     margin-top: 2em;
-
-    .reactionsBar {
-        display: flex;
-        align-content: center;
-        justify-content: space-between;
-
-        svg {
-            height: 24px;
-            width: 24px;
-            margin: 12px;
-        }
-    }
-
-    .commentsAndLikesBar {
-        margin-top: 1em;
-        font-size: 0.9em;
-
-        .likes {
-            font-weight: bold;
-        }
-    }
 }
