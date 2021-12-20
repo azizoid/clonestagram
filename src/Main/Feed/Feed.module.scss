@@ -12,4 +12,13 @@
             margin: 12px;
         }
     }
+
+    .commentsAndLikesBar {
+        margin-top: 1em;
+        font-size: 0.9em;
+
+        .likes {
+            font-weight: bold;
+        }
+    }
 }
