@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Col, Card, Row, Image } from 'react-bootstrap';
 
+import { Username } from 'lib/ui/Username/Username';
+
 import styles from './Profile.module.scss';
 
 export type ProfileProps = {
@@ -26,9 +28,7 @@ export const Profile = ({
                 />
             </Col>
             <Col md={{ span: 6 }}>
-                <Card.Link className="profileUsernameLink">
-                    {username}
-                </Card.Link>
+                <Username username={username} />
                 <Card.Text>{fullName}</Card.Text>
             </Col>
             <Col md={{ span: 3 }}>

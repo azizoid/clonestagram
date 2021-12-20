@@ -16,7 +16,7 @@ export const Feed = () => {
                 src="https://picsum.photos/id/101/614/614"
             />
 
-            <Info />
+            <Info username="Azizoid" />
 
             <Footer />
         </Card>
