@@ -15,13 +15,11 @@ export const Info = () => (
             <BsBookmark />
         </div>
         <div className={styles.commentsAndLikesBar}>
-            <Card.Text className={styles.likes}>20 likes</Card.Text>
-            <Card.Text className={styles.title}>
+            <span className={styles.likes}>20 likes</span>
+            <p className={styles.title}>
                 <b>Username</b> Photo Title
-            </Card.Text>
-            <Card.Text>
-                <small>19 hours ago</small>
-            </Card.Text>
+            </p>
+            <span className={styles.ago}>19 hours ago</span>
         </div>
     </Card.Body>
 );
