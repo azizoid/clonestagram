@@ -1,9 +1,10 @@
 import React from 'react';
 import { Card, Image } from 'react-bootstrap';
-
-import styles from './Feed.module.scss';
 import { Header } from './Header/Header';
 import { Info } from './Info/Info';
+import { Footer } from './Footer/Footer';
+
+import styles from './Feed.module.scss';
 
 export const Feed = () => {
     return (
@@ -17,7 +18,7 @@ export const Feed = () => {
 
             <Info />
 
-            <Card.Footer>Footer</Card.Footer>
+            <Footer />
         </Card>
     );
 };
