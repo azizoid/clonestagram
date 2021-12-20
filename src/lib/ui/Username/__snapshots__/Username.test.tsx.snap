@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Username 1`] = `
+<div>
+  <a
+    class="username"
+  >
+    fakeUsername
+  </a>
+</div>
+`;
