@@ -7,7 +7,7 @@ import { Profile } from './Main/Profile/Profile';
 import { Feed } from './Main/Feed/Feed';
 
 export const App = () => {
-    const [me, setMe] = useState({
+    const [me] = useState({
         username: 'azizoid',
         fullName: 'Aziz Shahhuseynov',
         image: 'https://picsum.photos/id/473/56/56',
