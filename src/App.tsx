@@ -10,7 +10,7 @@ export const App = () => {
     const [me] = useState({
         username: 'azizoid',
         fullName: 'Aziz Shahhuseynov',
-        image: 'https://picsum.photos/id/473/56/56',
+        image: 'https://picsum.photos/56',
     });
 
     return (
