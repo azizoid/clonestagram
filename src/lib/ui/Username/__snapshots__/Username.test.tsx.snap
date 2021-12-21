@@ -4,6 +4,7 @@ exports[`renders Username 1`] = `
 <div>
   <a
     class="username"
+    href="/#username"
   >
     fakeUsername
   </a>

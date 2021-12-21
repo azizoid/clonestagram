@@ -3,13 +3,13 @@
 exports[`renders Navbar 1`] = `
 <div>
   <nav
-    class="navbar navbar navbar-expand navbar-light bg-light"
+    class="navbar navbar navbar-expand navbar-light"
   >
     <div
-      class="container"
+      class="col-md-9 offset-md-2"
     >
       <div
-        class="col-md-10 offset-md-1"
+        class="container"
       >
         <div
           class="row"
@@ -18,7 +18,7 @@ exports[`renders Navbar 1`] = `
             class="col-md-2"
           >
             <a
-              class="navbar-brand"
+              class="brand navbar-brand"
               href="#home"
             >
               Clonestagram
